@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaMapMarkerAlt, FaGlobe, FaClock, FaCode, FaRobot, FaCogs } from 'react-icons/fa';
 
 function Card() {
   return (
@@ -21,13 +22,15 @@ function Card() {
         
        </div>
        </div>
-       <div className='p-2 mx-2 rounded-xl border-1 border-zinc-700 flex'>
-       <div className='text-white rounded-full bg-zinc-800 border-1 border-zinc-700 p-2 text-sm px-4'> India</div>
-       <div className='text-white rounded-full bg-zinc-800 border-1 border-zinc-700 p-2 text-sm px-4'> India</div>
-       <div className='text-white rounded-full bg-zinc-800 border-1 border-zinc-700 p-2 text-sm px-4'> India</div>
-       <div className='text-white rounded-full bg-zinc-800 border-1 border-zinc-700 p-2 text-sm px-4'> India</div>
+       <div className='p-2 mx-2 rounded-xl border-1 border-zinc-700 flex flex-wrap'>
+       <div className='text-white rounded-full bg-zinc-800 border-1 border-zinc-700 p-2 text-sm px-4 flex mr-2'>  <FaMapMarkerAlt className="text-amber-500 mt-1 mr-1" /> India</div>
+       <div className='text-white rounded-full bg-zinc-800 border-1 border-zinc-700 p-2 text-sm px-4 flex mr-2'> <FaGlobe className="text-amber-500 mt-1 mr-1" />English & Hindi</div>
+       <div className='text-white rounded-full bg-zinc-800 border-1 border-zinc-700 p-2 text-sm px-4 flex mr-2'> <FaClock className="text-amber-500 mt-1 mr-1" />IST</div>
+       <div className='text-white rounded-full bg-zinc-800 border-1 border-zinc-700 p-2 text-sm px-4 flex mr-2'> <FaCode className="text-amber-500 mt-1 mr-1" /> MERN Developer</div>
+       <div className='text-white rounded-full bg-zinc-800 border-1 border-zinc-700 p-2 text-sm px-4 flex mr-2 mt-2'> <FaRobot className="text-amber-500 mt-1 mr-1" /> AI Engineer</div>
+       <div className='text-white rounded-full bg-zinc-800 border-1 border-zinc-700 p-2 text-sm px-4 flex mr-2 mt-2'> <FaCogs className="text-amber-500 mt-1 mr-1" /> Devops</div>
        </div>
-       <div></div>
+       <div className=''>Mail Me</div>
     </div>
   )
 }
