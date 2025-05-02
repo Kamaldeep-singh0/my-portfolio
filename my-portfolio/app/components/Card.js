@@ -1,9 +1,9 @@
 import React from 'react'
-import { FaMapMarkerAlt, FaGlobe, FaClock, FaCode, FaRobot, FaCogs } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaGlobe, FaClock, FaCode, FaRobot, FaCogs,FaPaperPlane  } from 'react-icons/fa';
 
 function Card() {
   return (
-    <div className='flex flex-col w-full bg-zinc-900 rounded-xl border-1 border-zinc-700 '>
+    <div className='flex flex-col w-full bg-zinc-900 rounded-xl border-1 border-zinc-700 transform hover:scale-102 transition-transform duration-400 ease-in-out shadow-lg '>
         <div className='flex flex-row justify-baseline h-max '>
            
        <img className="size-32 drop-shadow-xl my-4 rounded-full transition-transform hover:scale-105 shadow-lg  " src="mypic.png"/>
@@ -30,7 +30,7 @@ function Card() {
        <div className='text-white rounded-full bg-zinc-800 border-1 border-zinc-700 p-2 text-sm px-4 flex mr-2 mt-2'> <FaRobot className="text-amber-500 mt-1 mr-1" /> AI Engineer</div>
        <div className='text-white rounded-full bg-zinc-800 border-1 border-zinc-700 p-2 text-sm px-4 flex mr-2 mt-2'> <FaCogs className="text-amber-500 mt-1 mr-1" /> Devops</div>
        </div>
-       <div className=''>Mail Me</div>
+       <div className='text-lg text-white flex justify-center m-1  hover:bg-zinc-700 py-3  rounded-full bg-zinc-800 border-1 border-zinc-700'><FaPaperPlane  className="text-amber-500 mt-1 mr-1" />Mail Me</div>
     </div>
   )
 }
