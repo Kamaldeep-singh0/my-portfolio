@@ -31,7 +31,7 @@ export default function Home() {
   {isCardOpen && (
         <div className="fixed inset-0 flex items-center justify-center z-50">
           <div 
-            className="fixed inset-0 bg-black bg-opacity-50 transition-opacity"
+            className="fixed inset-0  bg-opacity-50 transition-opacity "
             onClick={closeCard}
           ></div>
           
