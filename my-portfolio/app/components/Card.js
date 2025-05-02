@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaMapMarkerAlt, FaGlobe, FaClock, FaCode, FaRobot, FaCogs,FaPaperPlane  } from 'react-icons/fa';
 
+
 function Card() {
   return (
     <div className='flex flex-col w-full bg-zinc-900 rounded-xl border-1 border-zinc-700 transform hover:scale-102 transition-transform duration-400 ease-in-out shadow-lg '>
@@ -18,7 +19,7 @@ function Card() {
             
         </div>
         <h1 className='text-2xl text-white my-2 ml-2'>Kamaldeep Singh</h1>
-        <h2  className='text-lg text-white ml-2 flex' >I'm a  <span className='ml-1 text-amber-500'> WEB DEVELOPER</span></h2>
+        <h2  className='text-lg text-white ml-2 flex' >I&apos;m a  <span className='ml-1 text-amber-500'> WEB DEVELOPER</span></h2>
         
        </div>
        </div>
