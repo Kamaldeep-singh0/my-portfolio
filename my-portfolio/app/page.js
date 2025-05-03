@@ -4,6 +4,7 @@ import { useState } from "react";
 import Card from "./components/Card";
 import Project from "./components/Project";
 import Presence from "./components/Presence";
+import TechStackMarquee from "./components/TechStackMarquee";
 
 export default function Home() {
 
@@ -22,6 +23,7 @@ export default function Home() {
      </div>
 
     <Presence/>
+    <TechStackMarquee/>
      
     </div>
 
