@@ -23,13 +23,13 @@ function Card() {
         
        </div>
        </div>
-       <div className='p-2 mx-2 rounded-xl border-1 border-zinc-800 flex flex-wrap'>
-       <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 p-2 text-sm px-4 flex mr-2'>  <FaMapMarkerAlt className="text-amber-500 mt-1 mr-1" /> India</div>
-       <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 p-2 text-sm px-4 flex mr-2'> <FaGlobe className="text-amber-500 mt-1 mr-1" />English & Hindi</div>
-       <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 p-2 text-sm px-4 flex mr-2'> <FaClock className="text-amber-500 mt-1 mr-1" />IST</div>
-       <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 p-2 text-sm px-4 flex mr-2'> <FaCode className="text-amber-500 mt-1 mr-1" /> MERN Developer</div>
-       <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 p-2 text-sm px-4 flex mr-2 mt-2'> <FaRobot className="text-amber-500 mt-1 mr-1" /> AI Engineer</div>
-       <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 p-2 text-sm px-4 flex mr-2 mt-2'> <FaCogs className="text-amber-500 mt-1 mr-1" /> Devops</div>
+       <div className='p-2 mx-2 rounded-xl border-1 border-zinc-800 flex flex-wrap gap-2'>
+       <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex  py-1'>  <FaMapMarkerAlt className="text-amber-500 mt-1 mr-1" /> India</div>
+       <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex py-1'> <FaGlobe className="text-amber-500 mt-1 mr-1" />English & Hindi</div>
+       <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex py-1'> <FaClock className="text-amber-500 mt-1 mr-1" />IST</div>
+       <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex  py-1'> <FaCode className="text-amber-500 mt-1 mr-1" /> MERN Developer</div>
+       <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex  py-1 '> <FaRobot className="text-amber-500 mt-1 mr-1" /> AI Engineer</div>
+       <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex  py-1'> <FaCogs className="text-amber-500 mt-1 mr-1" /> Devops</div>
        </div>
        <div className='text-lg text-white flex justify-center m-1  hover:bg-zinc-800 py-3  rounded-full bg-zinc-900 border-1 border-zinc-800'><FaPaperPlane  className="text-amber-500 mt-1 mr-1" />Mail Me</div>
     </div>
