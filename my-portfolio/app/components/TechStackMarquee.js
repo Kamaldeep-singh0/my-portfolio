@@ -21,18 +21,18 @@ export default function TechStackMarquee() {
   const [hoveredTech, setHoveredTech] = useState(null);
   const [isPaused, setIsPaused] = useState(false);
   
-  // Auto-pause effect
+
   useEffect(() => {
     const pauseTimeout = setTimeout(() => {
       setIsPaused(true);
       
-      // Resume after 2 seconds
+    
       const resumeTimeout = setTimeout(() => {
         setIsPaused(false);
       }, 2000);
       
       return () => clearTimeout(resumeTimeout);
-    }, 3000); // Pause after 3 seconds of loading
+    }, 3000); 
     
     return () => clearTimeout(pauseTimeout);
   }, []);
@@ -84,7 +84,7 @@ export default function TechStackMarquee() {
 
   return (
     <div className="flex flex-col w-full bg-black rounded-xl border border-zinc-800 items-center relative overflow-hidden py-8">
-      <div className="text-white text-2xl font-bold mb-6">
+      <div className="text-white text-xl font-bold mb-6">
         <span className="text-gray-300">Technical</span> <span className="text-amber-500">Skills</span>
       </div>
       
