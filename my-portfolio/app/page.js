@@ -5,6 +5,7 @@ import Card from "./components/Card";
 import Project from "./components/Project";
 import Presence from "./components/Presence";
 import TechStackMarquee from "./components/TechStackMarquee";
+import Aboutus from "./components/Aboutus";
 
 export default function Home() {
 
@@ -24,6 +25,7 @@ export default function Home() {
 
     <Presence/>
     <TechStackMarquee/>
+    <Aboutus/>
      
     </div>
 

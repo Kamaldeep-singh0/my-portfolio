@@ -83,7 +83,7 @@ export default function TechStackMarquee() {
   };
 
   return (
-    <div className="flex flex-col w-full bg-black rounded-xl border border-zinc-800 items-center relative overflow-hidden py-8">
+    <div className="flex flex-col w-full bg-black rounded-xl border border-zinc-800 items-center relative overflow-hidden py-8 ">
       <div className="text-white text-xl font-bold mb-6">
         <span className="text-gray-300">Technical</span> <span className="text-amber-500">Skills</span>
       </div>

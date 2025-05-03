@@ -9,7 +9,7 @@ import {
 
 function Presence() {
   return (
-    <div className="flex flex-col w-full bg-zinc-950 rounded-xl border-1 border-zinc-800 items-center">
+    <div className="flex flex-col w-full bg-zinc-950 rounded-xl border-1 border-zinc-800 items-center transform hover:scale-102 transition-transform duration-400 ease-in-out">
       <div className="text-white text-xl font-bold my-5">
         Connect
       </div>
