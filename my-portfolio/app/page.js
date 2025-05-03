@@ -13,7 +13,8 @@ export default function Home() {
     <div className="bg-black flex justify-center  ">
     <div className="flex flex-col  items-center w-xl  h-screen my-5">
      <Card/>
-     <div className="flex flex-col w-full bg-black rounded-xl border-1 border-zinc-800">
+     <div className="flex flex-col w-full bg-black rounded-xl border-1 border-zinc-800 items-center">
+     <Project/>
      <Project/>
      <Project/>
      </div>
