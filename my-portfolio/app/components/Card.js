@@ -11,7 +11,7 @@ function Card() {
        
        <div className='mx-6 mt-6 w-full '>
         <div className='flex justify-between'>
-            <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 p-2 text-sm px-4 flex'> <FaRegCircle className="text-green-500 mt-1 mr-1" /> Available for work</div>
+            <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-3 flex'> <FaRegCircle className="text-green-500 mt-1 mr-1" /> Available for work</div>
             <div className='flex'>
             <div className='text-white text-sm p-2 '>Resume</div>
             <img src='down.png' className='mt-1 size-8 bg-zinc-800 border-1 border-zinc-800 rounded-xl p-1'/>

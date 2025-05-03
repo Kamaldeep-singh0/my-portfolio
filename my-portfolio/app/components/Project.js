@@ -6,7 +6,7 @@ function Project() {
     <div className='grid grid-cols-2 m-2 w-full bg-zinc-950 rounded-xl border-1 border-zinc-800 transform hover:scale-102 transition-transform duration-400 ease-in-out shadow-lg '>
      <div className='flex flex-col '>
       <h1 className='text-white text-lg text-center my-2'>VedX - AI Search Engine</h1>
-      <img src='pro.jpg' className='h-40 w-72 '/>
+      <img src='pro.jpg' className='h-40 w-72 ml-4 '/>
       </div>
       <div className='m-2'>
         
