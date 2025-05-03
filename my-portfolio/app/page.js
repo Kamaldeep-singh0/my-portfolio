@@ -14,6 +14,8 @@ export default function Home() {
 
   return (
     <div className="bg-black min-h-screen w-full flex justify-center   ">
+      <link rel="icon" href="mypic.png" sizes="any"  />
+      <meta name="description" content="This is a description of my page." />
     <div className="flex flex-col items-center w-full max-w-2xl my-5">
      <Card/>
      <div className="flex flex-col w-full bg-black rounded-xl border-1 border-zinc-800 items-center">
