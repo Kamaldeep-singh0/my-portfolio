@@ -14,6 +14,7 @@ export default function Home() {
     <div className="flex flex-col items-center w-full max-w-2xl my-5">
      <Card/>
      <div className="flex flex-col w-full bg-black rounded-xl border-1 border-zinc-800 items-center">
+      <div className="text-white text-xl font-bold m-2">Projects</div>
      <Project/>
      <Project/>
      <Project/>
