@@ -65,7 +65,7 @@ export default function TechStackMarquee() {
         className={`flex items-center gap-3 justify-center min-w-[140px] h-16 px-4 bg-[#121212] 
                    text-white rounded-lg text-sm font-medium shadow-md transition-all duration-300
                    border border-zinc-800 hover:border-amber-500/50
-                   ${isHovered ? "bg-[#1a1a1a] scale-110" : ""}`}
+                   ${isHovered ? "bg-[#1a1a1a] scale-101" : ""}`}
         onMouseEnter={() => setHoveredTech(`${direction}-${index}`)}
         onMouseLeave={() => setHoveredTech(null)}
       >
