@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Card from "./components/Card";
 import Project from "./components/Project";
+import Presence from "./components/Presence";
 
 export default function Home() {
 
@@ -18,8 +19,9 @@ export default function Home() {
      <Project/>
      <Project/>
      <Project/>
-    
      </div>
+
+    <Presence/>
      
     </div>
 
