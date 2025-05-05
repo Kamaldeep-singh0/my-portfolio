@@ -25,7 +25,7 @@ export default function Home() {
      <Project
       name="Medium Project "
       descrip="Medium Project is a full-stack web application built with modern technologies including React for the frontend, Cloudflare Workers with Hono for backend API routing, and PostgreSQL managed via Prisma. It ensures type safety using TypeScript, validation with Zod, and secure authentication through JWT." 
-      image="Medium.png"
+      image="medium.png"
       code="https://github.com/Kamaldeep-singh0/medium-project "
       live="https://medium-project-nine.vercel.app/signup" />
      <Project
