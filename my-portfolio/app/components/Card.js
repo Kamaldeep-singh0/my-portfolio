@@ -33,19 +33,19 @@ function Card() {
        <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex  py-1 '> <FaRobot className="text-amber-500  mr-1" /> AI Engineer</div>
        <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex  py-1'> <FaCogs className="text-amber-500  mr-1" /> Devops</div>
        </div>
-       <div className='grid grid-cols-2'>
+       <div className='grid grid-cols-2 my-2 px-2'>
        <a 
          href="tel:+916283918770"
          target="_blank"
          rel="noopener noreferrer"
          className='text-lg text-white flex justify-center m-1  hover:bg-zinc-800 py-3  rounded-2xl bg-zinc-900 border-1 border-zinc-800 items-center'>
-          <FaPhone  className="text-amber-500  mr-1" />Call Me</a>
+         Call Me  <FaPhone  className="text-amber-500  ml-2" /> </a>
        <a 
          href="mailto:contact@kamaldeepsingh.net"
          target="_blank"
          rel="noopener noreferrer"
          className='text-lg text-white flex justify-center m-1  hover:bg-zinc-800 py-3  rounded-2xl bg-zinc-900 border-1 border-zinc-800 items-center'>
-          <FaPaperPlane  className="text-amber-500  mr-1" />Mail Me</a>
+         Mail Me  <FaPaperPlane  className="text-amber-500  ml-2" /> </a>
           </div>
     </div>
   )
