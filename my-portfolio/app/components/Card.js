@@ -31,7 +31,10 @@ function Card() {
        <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex  py-1 '> <FaRobot className="text-amber-500  mr-1" /> AI Engineer</div>
        <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex  py-1'> <FaCogs className="text-amber-500  mr-1" /> Devops</div>
        </div>
-       <div className='text-lg text-white flex justify-center m-1  hover:bg-zinc-800 py-3  rounded-full bg-zinc-900 border-1 border-zinc-800 items-center'><FaPaperPlane  className="text-amber-500  mr-1" />Mail Me</div>
+       <button onClick={() => {
+         window.location.href = "mailto:contact@kamaldeepsingh.net"}}
+         className='text-lg text-white flex justify-center m-1  hover:bg-zinc-800 py-3  rounded-full bg-zinc-900 border-1 border-zinc-800 items-center'>
+          <FaPaperPlane  className="text-amber-500  mr-1" />Mail Me</button>
     </div>
   )
 }

@@ -1,8 +1,9 @@
+"use client";
 import Card from "./components/Card";
 import Project from "./components/Project";
 import Presence from "./components/Presence";
 import Aboutus from "./components/Aboutus";
-import TechStackMarqueeWrapper from "./components/TechStackMarqueeWrap";
+import TechStackMarquee from "./components/TechStackMarquee";
 
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
      </div>
 
     <Presence/>
-    <TechStackMarqueeWrapper/>
+    <TechStackMarquee/>
     <Aboutus/>
      
     </div>
