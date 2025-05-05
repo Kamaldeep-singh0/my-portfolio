@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaMapMarkerAlt, FaGlobe, FaClock, FaCode, FaRobot, FaCogs,FaPaperPlane , FaRegCircle  } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaGlobe, FaClock, FaCode, FaRobot, FaCogs,FaPaperPlane , FaRegCircle , FaPhone  } from 'react-icons/fa';
 
 
 function Card() {
@@ -33,10 +33,20 @@ function Card() {
        <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex  py-1 '> <FaRobot className="text-amber-500  mr-1" /> AI Engineer</div>
        <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex  py-1'> <FaCogs className="text-amber-500  mr-1" /> Devops</div>
        </div>
-       <button onClick={() => {
-         window.location.href = "mailto:contact@kamaldeepsingh.net"}}
-         className='text-lg text-white flex justify-center m-1  hover:bg-zinc-800 py-3  rounded-full bg-zinc-900 border-1 border-zinc-800 items-center'>
-          <FaPaperPlane  className="text-amber-500  mr-1" />Mail Me</button>
+       <div className='grid grid-cols-2'>
+       <a 
+         href="tel:+916283918770"
+         target="_blank"
+         rel="noopener noreferrer"
+         className='text-lg text-white flex justify-center m-1  hover:bg-zinc-800 py-3  rounded-2xl bg-zinc-900 border-1 border-zinc-800 items-center'>
+          <FaPhone  className="text-amber-500  mr-1" />Call Me</a>
+       <a 
+         href="mailto:contact@kamaldeepsingh.net"
+         target="_blank"
+         rel="noopener noreferrer"
+         className='text-lg text-white flex justify-center m-1  hover:bg-zinc-800 py-3  rounded-2xl bg-zinc-900 border-1 border-zinc-800 items-center'>
+          <FaPaperPlane  className="text-amber-500  mr-1" />Mail Me</a>
+          </div>
     </div>
   )
 }
