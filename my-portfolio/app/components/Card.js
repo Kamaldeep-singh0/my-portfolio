@@ -14,7 +14,9 @@ function Card() {
             <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-3 flex '> <FaRegCircle className="text-green-500  mr-1" /> Available for work</div>
             <div className='flex items-center'>
             <div className='text-white text-sm p-2 '>Resume</div>
-            <img src='down.png' className=' size-8 bg-zinc-800 border-1 border-zinc-800 rounded-xl p-1'/>
+            <a href="/Kamaldeep_singh.pdf" download="Kamaldeep_Singh_Resume.pdf">
+            <img src='down.png' className=' size-8 bg-zinc-800 border-1 border-zinc-800 rounded-xl p-1 hover:bg-zinc-700'/>
+            </a>
             </div>
             
         </div>
