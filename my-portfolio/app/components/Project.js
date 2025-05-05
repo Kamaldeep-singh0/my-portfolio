@@ -4,9 +4,9 @@ import { FaBroadcastTower,FaExternalLinkAlt  } from "react-icons/fa";
 function Project({name,descrip , image,code,live}) {
   return (
     <div className='grid grid-cols-2 m-2 w-full bg-zinc-950 rounded-xl border-1 border-zinc-800 transform hover:scale-102 transition-transform duration-400 ease-in-out shadow-lg '>
-     <div className='flex flex-col '>
-      <h1 className='text-white text-lg text-center my-2'>{name}</h1>
-      <img src={image} className='h-40 w-72 ml-0 lg:ml-4 '/>
+     <div className='flex flex-col items-center '>
+      <h1 className='text-white text-lg text-center my-3'>{name}</h1>
+      <img src={image} className='h-40 w-72  '/>
       </div>
       <div className='m-2'>
         

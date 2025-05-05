@@ -24,16 +24,16 @@ export default function Home() {
       live="https://ved-x.vercel.app/" />
      <Project
       name="Medium Project "
-      descrip="A full-stack Medium Project built with modern web technologies." 
+      descrip="Medium Project is a full-stack web application built with modern technologies including React for the frontend, Cloudflare Workers with Hono for backend API routing, and PostgreSQL managed via Prisma. It ensures type safety using TypeScript, validation with Zod, and secure authentication through JWT." 
       image="Medium.png"
       code="https://github.com/Kamaldeep-singh0/medium-project "
       live="https://medium-project-nine.vercel.app/signup" />
      <Project
-      name="VedX AI search Engine "
-      descrip="hello" 
-      image="pro.jpg"
-      code="https://github.com/ "
-      live="google.com" />
+      name="Profolio -Project Showcasing"
+      descrip="ProjectHub is a responsive web platform where developers can securely sign up and showcase their projects. It features user authentication, dynamic project management, and a sleek UI built with React.js, Tailwind CSS, Express.js, and MongoDB." 
+      image="profolio.png"
+      code="https://github.com/Kamaldeep-singh0/technovate"
+      live="https://github.com/Kamaldeep-singh0/technovate" />
      </div>
 
     <Presence/>
