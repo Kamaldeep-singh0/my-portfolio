@@ -7,7 +7,7 @@ function Card() {
     <div className='flex flex-col w-full bg-zinc-950 rounded-xl border-1 border-zinc-800 transform hover:scale-102 transition-transform duration-400 ease-in-out shadow-lg '>
         <div className='flex flex-row justify-baseline h-max '>
            
-       <img className="size-32 drop-shadow-xl my-4 rounded-xl transition-transform hover:scale-105 shadow-lg  " src="mypic.png"/>
+       <img className="size-32 drop-shadow-xl my-4 rounded-xl transition-transform hover:scale-105 shadow-lg  " src="mypic.jpg"/>
        
        <div className='mx-6 mt-6 w-full '>
         <div className='flex justify-between'>

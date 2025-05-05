@@ -7,7 +7,7 @@ function Aboutus() {
         About Me 
       </div>
       <div className='text-zinc-400 mx-5'>
-      I'm a passionate full-stack developer with a strong foundation in modern web technologies and a knack for building responsive, scalable applications. I specialize in technologies like React, Next.js, Express.js, and Tailwind CSS, and I'm well-versed in JavaScript, TypeScript, and Java. My experience includes working with both SQL and NoSQL databases, including PostgreSQL, MongoDB, and Prisma, and I have hands-on knowledge of cloud platforms like AWS, Vercel, and Docker. I'm deeply interested in solving complex problems through efficient algorithm design and data structure implementation, and I love working on projects that push my limits and create real impact.
+      I am a passionate full-stack developer with a strong foundation in modern web technologies and a knack for building responsive, scalable applications. I specialize in technologies like React, Next.js, Express.js, and Tailwind CSS, and I am well-versed in JavaScript, TypeScript, and Java. My experience includes working with both SQL and NoSQL databases, including PostgreSQL, MongoDB, and Prisma, and I have hands-on knowledge of cloud platforms like AWS, Vercel, and Docker. I am deeply interested in solving complex problems through efficient algorithm design and data structure implementation, and I love working on projects that push my limits and create real impact.
       </div>
     </div>
   )
