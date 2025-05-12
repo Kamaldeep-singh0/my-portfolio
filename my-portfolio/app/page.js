@@ -4,6 +4,7 @@ import Project from "./components/Project";
 import Presence from "./components/Presence";
 import Aboutus from "./components/Aboutus";
 import TechStackMarquee from "./components/TechStackMarquee";
+import Script from 'next/script';
 
 
 export default function Home() {

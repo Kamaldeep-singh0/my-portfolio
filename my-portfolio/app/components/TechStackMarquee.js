@@ -17,6 +17,7 @@ import {
   SiVercel
 } from "react-icons/si";
 
+
 export default function TechStackMarquee() {
   const [hoveredTech, setHoveredTech] = useState(null);
   const [isPaused, setIsPaused] = useState(false);
