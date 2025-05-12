@@ -52,6 +52,15 @@ function Card() {
          href="https://www.fiverr.com/s/WEj2jbR"
          target="_blank"
          rel="noopener noreferrer"
+         onClick={() => {
+          if (typeof fbq !== 'undefined') {
+          fbq('track', 'ViewContent', {
+           content_name: 'Fiverr Profile Click',
+           value: 1,
+          currency: 'USD'
+         });
+          }
+         }}
          className='text-lg text-white flex justify-center m-1  hover:bg-green-500 py-3  rounded-2xl bg-green-600 border-1 border-zinc-800 items-center'>
          Hire Me on Fiverr  </a>
           </div>
