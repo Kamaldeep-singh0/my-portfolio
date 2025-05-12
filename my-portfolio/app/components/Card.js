@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaMapMarkerAlt, FaGlobe, FaClock, FaCode, FaRobot, FaCogs,FaPaperPlane , FaRegCircle , FaPhone  } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaGlobe, FaClock, FaCode, FaRobot, FaCogs,FaPaperPlane , FaRegCircle , FaPhone ,FaBriefcase } from 'react-icons/fa';
 
 
 function Card() {
@@ -33,7 +33,7 @@ function Card() {
        <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex  py-1 '> <FaRobot className="text-amber-500  mr-1" /> AI Engineer</div>
        <div className='text-white rounded-full bg-zinc-900 border-1 border-zinc-800 items-center text-sm px-4 flex  py-1'> <FaCogs className="text-amber-500  mr-1" /> Devops</div>
        </div>
-       <div className='grid grid-cols-2 my-2 px-2'>
+       <div className='grid grid-cols-2 mt-2 mb-1 px-2'>
        <a 
          href="tel:+916283918770"
          target="_blank"
@@ -46,6 +46,14 @@ function Card() {
          rel="noopener noreferrer"
          className='text-lg text-white flex justify-center m-1  hover:bg-zinc-800 py-3  rounded-2xl bg-zinc-900 border-1 border-zinc-800 items-center'>
          Mail Me  <FaPaperPlane  className="text-amber-500  ml-2" /> </a>
+          </div>
+          <div className=' mb-2 px-2'>
+             <a 
+         href="https://www.fiverr.com/s/e6XGWD4"
+         target="_blank"
+         rel="noopener noreferrer"
+         className='text-lg text-white flex justify-center m-1  hover:bg-green-500 py-3  rounded-2xl bg-green-600 border-1 border-zinc-800 items-center'>
+         Hire Me on Fiverr  </a>
           </div>
     </div>
   )
