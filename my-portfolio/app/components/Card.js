@@ -49,7 +49,7 @@ function Card() {
           </div>
           <div className=' mb-2 px-2'>
              <a 
-         href="https://www.fiverr.com/s/e6XGWD4"
+         href="https://www.fiverr.com/s/WEj2jbR"
          target="_blank"
          rel="noopener noreferrer"
          className='text-lg text-white flex justify-center m-1  hover:bg-green-500 py-3  rounded-2xl bg-green-600 border-1 border-zinc-800 items-center'>
